@@ -97,7 +97,7 @@ namespace OxyPlot.Xamarin.Android
         /// <param name="stroke">The stroke color.</param>
         /// <param name="thickness">The thickness.</param>
         public override void DrawEllipse(OxyRect rect, OxyColor fill, OxyColor stroke, double thickness)
-        {
+        { 
             this.paint.Reset();
             {
                 if (fill.IsVisible())
